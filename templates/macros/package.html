@@ -8,20 +8,20 @@
 
   <div class="pkg-links">
     {% if pkg.id %}
-    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/{{pkg.id}}"><i class="fa fa-cube"></i></a>
+    <a class="pkg-link" target="_blank" title="crates.io link" href="https://crates.io/crates/{{pkg.id}}"><i class="fa fa-cube"></i></a>
     {% endif %}
 
     {% if pkg.homepage %}
-    <a class="pkg-link" title="homepage" href="{{pkg.homepage}}"><i class="fa fa-home"></i></a>
+    <a class="pkg-link" target="_blank" title="homepage" href="{{pkg.homepage}}"><i class="fa fa-home"></i></a>
     {% endif %}
 
 
     {% if pkg.documentation %}
-    <a class="pkg-link" title="documentation" href="{{pkg.documentation}}"><i class="fa fa-book"></i></a>
+    <a class="pkg-link" target="_blank" title="documentation" href="{{pkg.documentation}}"><i class="fa fa-book"></i></a>
     {% endif %}
 
     {% if pkg.repository %}
-    <a class="pkg-link" title="repository" href="{{pkg.repository}}"><i class="fa fa-code"></i></a>
+    <a class="pkg-link" target="_blank" title="repository" href="{{pkg.repository}}"><i class="fa fa-code"></i></a>
     {% endif %}
 
     <a class="pkg-link action" title="permalink" href="#pkg-{{pkg.id | default(value=pkg.name)}}"><i
