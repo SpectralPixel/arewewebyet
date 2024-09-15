@@ -20,9 +20,9 @@ news_tag = "cms"
 <ul class="pkg-list">
   <li id="pkg-zola" class="pkg">
     <span class="pkg-name">zola</span>
-    <a class="pkg-link" target="_blank" title="homepage" href="https://www.getzola.org/"><i class="fa fa-home"></i></a>
-    <a class="pkg-link" target="_blank" title="documentation" href="https://www.getzola.org/documentation/getting-started/overview/"><i   class="fa fa-book"></i></a>
-    <a class="pkg-link" target="_blank" title="repository" href="https://github.com/getzola/zola"><i class="fa fa-code"></i></a>
+    <a class="pkg-link" target="_blank" rel="noopener noreferrer" title="homepage" href="https://www.getzola.org/"><i class="fa fa-home"></i></a>
+    <a class="pkg-link" target="_blank" rel="noopener noreferrer" title="documentation" href="https://www.getzola.org/documentation/getting-started/overview/"><i   class="fa fa-book"></i></a>
+    <a class="pkg-link" target="_blank" rel="noopener noreferrer" title="repository" href="https://github.com/getzola/zola"><i class="fa fa-code"></i></a>
     <p class="pkg-meta">
       <img src="https://img.shields.io/github/last-commit/getzola/zola.svg">
     </p>
